@@ -1,0 +1,9 @@
+.title {
+  font-size: 4.2rem;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 1.5rem;
+  color: var(--dark);
+  opacity: 0;
+  animation: fade-in-down linear .4s .2s forwards;
+}
