@@ -1,0 +1,50 @@
+.box {
+  padding: 1.5rem;
+  border-radius: 4rem;
+  border: 2px solid #ccc;
+}
+
+.box:nth-child(odd) {
+  animation: fade-in-right linear .4s .2s forwards;
+}
+
+.box:nth-child(even) {
+  animation: fade-in-left linear .4s .2s forwards;
+}
+
+.box:hover,
+.box:focus {
+  border-color: var(--redOrange);
+}
+
+.box__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box__icon {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box__title {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--dark);
+  text-align: center;
+  margin-bottom: .8rem;
+}
+
+.box__text {
+  font-size: 14px;
+  color: var(--gray);
+  text-align: center;
+  line-height: 1.4;
+}
