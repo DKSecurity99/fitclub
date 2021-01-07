@@ -1,0 +1,9 @@
+.sub-title {
+  font-size: 3.2rem;
+  font-weight: 400;
+  text-align: left;
+  color: var(--dark);
+  margin-bottom: 1.5rem;
+  opacity: 0;
+  animation: fade-in-left linear .4s .2s forwards;
+}
