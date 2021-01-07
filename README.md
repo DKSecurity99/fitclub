@@ -8,6 +8,7 @@ The project only contains a home page, as shown in the original layout.
 
 * [Layout](#layout)
 * [Features](#features)
+* [Differential](#differential)
 * [Installation](#install)
 * [License](#license)
 
@@ -22,6 +23,11 @@ Below you can see the project layout.
 ## 🚀 Functionalities
 
 > The project does not have any functionality, as it is just a common web site with no actions.
+
+<a id="differential"></a>
+## 🔥 Differential
+
+> The biggest difference in the creation of this project was the application of animations in the loader of the interface elements, with pure css only.
 
 <a id="install"></a>
 ## 👷 Installation and use
