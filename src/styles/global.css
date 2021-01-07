@@ -1,0 +1,112 @@
+:root {
+  --darkCyan: #1C767E;
+  --yellow: #FEC16A;
+  --violet: #71678C;
+  --dark: #161616;
+  --redOrange: #EE786C;
+  --gray:gray;
+  --white: #fff;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 62.5%;
+}
+
+body,
+button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+
+@media screen and (min-width: 740px) {
+  body,
+  html {
+    font-size: 75%;
+  }
+}
+/* Container */
+
+.container {
+  width: 100%;
+  max-width: 39rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media screen and (min-width: 740px) {
+  .container {
+    max-width: 72rem;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .container {
+    max-width: 94rem;
+  }
+}
+
+/* Animations */
+
+@keyframes fade-in-down {
+  from {
+    transform: translateY(-2.5rem);
+  }
+  
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in-left {
+  from {
+    transform: translateX(2.5rem);
+  }
+  
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in-right {
+  from {
+    transform: translateX(-2.5rem);
+  }
+  
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in-top {
+  from {
+    transform: translateY(2.5rem);
+  }
+  
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
