@@ -1,0 +1,10 @@
+.text {
+  font-size: 1.6rem;
+  text-align: left;
+  font-weight: 300;
+  color: var(--gray);
+  line-height: 1.4;
+  margin-bottom: 1.5rem;
+  opacity: 0;
+  animation: fade-in-right linear .4s .2s forwards;
+}
