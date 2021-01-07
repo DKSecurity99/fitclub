@@ -1,0 +1,21 @@
+.loading {
+  width: 5rem;
+  height: 5rem;
+  border: 5px solid #ccc;
+  border-top-color: var(--redOrange);
+  border-bottom-color: var(--redOrange);
+  animation: load 1s linear infinite;
+  border-radius: 50%;
+
+  position: absolute;
+  top: calc(50% - 2.5rem);
+  left: calc(50% - 2.5rem);
+}
+
+@keyframes load {
+  from {
+    transform: rotate(0);
+  }to {
+    transform: rotate(360deg);
+  }
+}
