@@ -1,0 +1,32 @@
+.header {
+  width: 100%;
+  padding: 1.5rem 0;
+  background-color: var(--white);
+}
+
+.header__container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  font-size: 2.4rem;
+  color: var(--dark);
+  font-weight: 600;
+  text-align: left; 
+}
+
+.header__btn-login {
+  display: flex;
+  width: 11rem;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 1rem 1.2rem;
+  border-radius: 2rem;
+  background-color: var(--redOrange);
+  font-size: 1.8rem;
+  color: var(--white);
+  font-weight: 400;
+}
