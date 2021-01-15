@@ -1,5 +1,13 @@
 # FitClub - HomePage
 
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=Fitclub&message=Welcome&color=FFFFFF&labelColor=EE786C" alt="PRs welcome!" />
+  <img alt="License" src="https://img.shields.io/static/v1?label=version&message=1.0&color=FFFFFF&labelColor=EE786C">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=FFFFFF&labelColor=EE786C">
+  <img alt="Stars" src="https://img.shields.io/github/stars/DKSecurity99/fitclub?color=FFFFFF&labelColor=EE786C">
+  <img alt="Languages" src="https://img.shields.io/github/languages/count/DKSecurity99/fitclub?color=FFFFFF&labelColor=EE786C">
+</p>
+
 FitClub is a clone of a layout copied from the design site o [dribbbles](https://dribbble.com/), the site was created in ReactJS, using a TypeScript.
 
 The project only contains a home page, as shown in the original layout.
